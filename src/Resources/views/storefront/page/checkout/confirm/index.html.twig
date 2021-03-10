@@ -1,0 +1,52 @@
+{% sw_extends '@Storefront/storefront/page/checkout/confirm/index.html.twig' %}
+
+{% block page_checkout_confirm_tos %}
+    {{ parent() }}
+    <div class="confirm-transfer">
+        <div class="card checkout-card">
+            <div class="card-body">
+                {% block page_checkout_confirm_transfer_header %}
+                    <div class="card-title">
+                        {{ "shirtcharity.choix.confirmTransfer.title"|trans|sw_sanitize }}
+                    </div>
+                {% endblock %}
+
+                {% block page_checkout_confirm_transfer_control %}
+                    <div class="custom-control custom-radio">
+                        <input
+                            type="radio"
+                            class="checkout-confirm-transfer-radio custom-control-input{% if formViolations.getViolations('/transfer') is not empty %} is-invalid{% endif %}"
+                            id="dataTransferYes"
+                            form="confirmOrderForm"
+                            name="dataTransfer"
+                            value="yes"
+                            required
+                            data-csrf-token="{{ csrf_token('shirtcharity.checkout.dataTransfer') }}"
+                        />
+                        <label for="dataTransferYes" class="checkout-confirm-transfer-label custom-control-label">
+                            {{ "shirtcharity.choix.confirmTransfer.labelYes"|trans({
+                                '%url%': path('frontend.cms.page',{ id: shopware.config.core.basicInformation.privacyPage })
+                            })|raw }}
+                        </label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input
+                            type="radio"
+                            class="checkout-confirm-transfer-radio custom-control-input{% if formViolations.getViolations('/transfer') is not empty %} is-invalid{% endif %}"
+                            id="dataTransferNo"
+                            form="confirmOrderForm"
+                            name="dataTransfer"
+                            value="no"
+                            required
+                            data-csrf-token="{{ csrf_token('shirtcharity.checkout.dataTransfer') }}"
+                        />
+                        <label for="dataTransferNo" class="checkout-confirm-transfer-label custom-control-label">
+                            {{ "shirtcharity.choix.confirmTransfer.labelNo"|trans|raw }}
+                        </label>
+                    </div>
+                    <template data-set-data-transfer-plugin></template>
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,11 @@
+{
+    "shirtcharity": {
+        "choix": {
+            "confirmTransfer": {
+                "title": "Dürfen wir den Organisationen mitteilen, dass du der Spender bist?",
+                "labelYes": "Ich bin einverstanden, dass mein Name, meine Rechnungsadresse und meine E-Mail-Adresse gemäß den <a data-toggle=\"modal\" data-url=\"%url%\" href=\"%url%\" title=\"Datenschutzbestimmungen\">Datenschutzbestimmungen</a> an die Organisationen, für die ich spende, übertragen wird. Das gibt den Organisationen die Möglichkeit, eine Spendenbescheinigung auszustellen.",
+                "labelNo": "Ich möchte anonym spenden und erhalte <strong>keine</strong> Spendenbescheinigung."
+            }
+        }
+    }
+}

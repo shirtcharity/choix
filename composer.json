@@ -1,0 +1,27 @@
+{
+  "name": "shirtcharity/choix",
+  "description": "Choix (Shopware plugin to provide a data transfer choice at checkout)",
+  "type": "shopware-platform-plugin",
+  "license": "EUPL-1.2",
+  "authors": [
+    {
+      "name": "shirt.charity",
+      "homepage": "https://shirt.charity"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ShirtCharity\\Choix\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "ShirtCharity\\Choix\\Choix",
+    "label": {
+      "de-DE": "Choix (shirt.charity-Plugin um eine Auswahl zur Datenübermittlung beim Checkout zu bieten)",
+      "en-GB": "Choix (shirt.charity plugin to provide a data transfer choice at checkout)"
+    }
+  },
+  "scripts": {
+    "ecs": "../../../dev-ops/analyze/vendor/bin/ecs --config ../../../platform/easy-coding-standard.yml check ./src/"
+  }
+}
