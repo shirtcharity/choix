@@ -2,8 +2,8 @@
     "shirtcharity": {
         "choix": {
             "confirmTransfer": {
-                "title": "May we tell the organizations that you are the donor?",
-                "labelYes": "I agree that my name, billing address and email address will be transferred to the organizations to which I donate in accordance with the <a data-toggle=\"modal\" data-url=\"%url%\" href=\"%url%\" title=\"Privacy Policy\">Privacy Policy</a>. This gives the organizations the opportunity to issue a donation receipt.",
+                "title": "Do you want us to tell the charity that it's you who donates?",
+                "labelYes": "I agree that my name, billing address and email address will be passed on to the charity to which I donate in accordance with the <a data-toggle=\"modal\" data-url=\"%url%\" href=\"%url%\" title=\"Privacy Policy\">Privacy Policy</a>. This way the charity has the opportunity to issue a donation receipt.",
                 "labelNo": "I would like to donate anonymously and will <strong>not</strong> receive a donation receipt."
             }
         }
