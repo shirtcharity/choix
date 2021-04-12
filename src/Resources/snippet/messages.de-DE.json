@@ -3,7 +3,7 @@
         "choix": {
             "confirmTransfer": {
                 "title": "Dürfen wir der Organisation mitteilen, dass die Spende von dir kommt?",
-                "labelYes": "Ich bin einverstanden, dass mein Name, meine Rechnungsadresse und meine E-Mail-Adresse gemäß den <a data-toggle=\"modal\" data-url=\"%url%\" href=\"%url%\" title=\"Datenschutzbestimmungen\">Datenschutzbestimmungen</a> an die Organisation, für die ich spende, übertragen wird. Das gibt der Organisation die Möglichkeit, eine Spendenbescheinigung auszustellen.",
+                "labelYes": "Ich bin einverstanden, dass mein Name, meine Rechnungsadresse und meine E-Mail-Adresse gemäß den <a data-toggle=\"modal\" data-url=\"%url%\" href=\"%url%\" title=\"Datenschutzbestimmungen\">Datenschutzbestimmungen</a> an die Organisation, für die ich spende, übertragen wird. Das gibt der Organisation die Möglichkeit, eine Spendenbescheinigung auszustellen. Spendenbescheinigungen werden i.d.R. am Anfang des folgenden Jahres ausgestellt.",
                 "labelNo": "Ich möchte anonym spenden und erhalte <strong>keine</strong> Spendenbescheinigung."
             }
         }
