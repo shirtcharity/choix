@@ -17,11 +17,15 @@
   "extra": {
     "shopware-plugin-class": "ShirtCharity\\Choix\\Choix",
     "label": {
-      "de-DE": "Choix (shirt.charity-Plugin um eine Auswahl zur Datenübermittlung beim Checkout zu bieten)",
-      "en-GB": "Choix (shirt.charity plugin to provide a data transfer choice at checkout)"
+      "de-DE": "shirt.charity Choix",
+      "en-GB": "shirt.charity Choix"
+    },
+    "description": {
+      "de-DE": "shirt.charity-Plugin um eine Auswahl zur Datenübermittlung beim Checkout zu bieten",
+      "en-GB": "shirt.charity plugin to provide a data transfer choice at checkout"
     }
   },
   "scripts": {
-    "ecs": "../../../dev-ops/analyze/vendor/bin/ecs --config ../../../platform/easy-coding-standard.yml check ./src/"
+    "ecs": "../../../dev-ops/analyze/vendor/bin/ecs --config ../../../platform/easy-coding-standard.php check ./src/"
   }
 }

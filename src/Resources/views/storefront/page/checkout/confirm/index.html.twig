@@ -25,7 +25,7 @@
                         />
                         <label for="dataTransferYes" class="checkout-confirm-transfer-label custom-control-label">
                             {{ "shirtcharity.choix.confirmTransfer.labelYes"|trans({
-                                '%url%': path('frontend.cms.page',{ id: shopware.config.core.basicInformation.privacyPage })
+                                '%url%': path('frontend.cms.page',{ id: config('core.basicInformation.privacyPage') })
                             })|raw }}
                         </label>
                     </div>
